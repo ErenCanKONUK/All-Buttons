@@ -1,0 +1,39 @@
+body{
+    height:4000px ;
+    background-color: rgb(66, 63, 60);
+    color: whitesmoke
+}
+/* Metin */
+.container{
+    border: 20px solid rgb(232, 217, 217);
+    padding: 40px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    font-size: large;
+}
+.yukari_cik{
+    display: none;
+    height: 90px;
+    width: 90px;
+    border-radius: 40px;
+    background-color: red;
+    color: white;
+    font-size: 30px;
+    line-height: 80px;
+    text-align: center;
+    position: fixed;
+    bottom: 50px;
+    right: 70px;
+
+
+}
+.yukari_cik:hover{
+    cursor: pointer;
+    background-color: aqua;
+}
+.goster{
+    display: block;
+}
+.kaybol{
+    display: none;
+}
