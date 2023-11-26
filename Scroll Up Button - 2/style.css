@@ -1,0 +1,32 @@
+
+/* ----------------Başlangıç----------------------------------  */
+/* -------------------------------------------------- */
+/*------------- scroll buttom to top -------------- */
+.scrollTop {
+    position: fixed;
+    bottom: 40px;
+    right: 32px;
+    width: 40px;
+    height: 40px;
+    background: #a59a9a url("images/scrollTop.png");
+    border-radius: 50%;
+    background-size: 40px;
+    background-position: center;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    z-index: 100000;
+    visibility: hidden;
+    opacity: 0;
+    transition: 0.5s;
+
+}
+
+
+.scrollTop.active {
+    visibility: visible;
+    opacity: 1;
+}
+
+/*------------- scroll buttom to top -------------- */
+/* ----------------Bitiş----------------------------------  */
+/* -------------------------------------------------- */
