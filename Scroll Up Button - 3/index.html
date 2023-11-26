@@ -1,0 +1,23 @@
+<!-- Yukarı Ok Tuşu -->
+
+<button id="upButton">&uarr;</button>
+
+        <script>
+          window.onscroll = function() {scrollFunction()};
+      
+          function scrollFunction() {
+            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+              document.getElementById("upButton").style.display = "block";
+            } else {
+              document.getElementById("upButton").style.display = "none";
+            }
+          }
+      
+          document.getElementById("upButton").addEventListener("click", function() {
+            document.body.scrollTop = 0;
+            document.documentElement.scrollTop = 0;
+          });
+        </script>
+
+<!-- Yukarı Ok Tuşu -->
+<!-- İndex.html dosyanıza bu satırları eklemeniz css ile bağlamanız yeterlidir. -->
